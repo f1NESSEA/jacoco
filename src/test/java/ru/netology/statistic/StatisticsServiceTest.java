@@ -33,8 +33,8 @@ public class StatisticsServiceTest {
     @Test
     void findMaxMid() {
         StatisticsService service = new StatisticsService();
-        long[] incomesInBillions = {9, 5, 8, 12, 5, 3, 8, 6, 11, 12, 0};
-        long expected = 12;
+        long[] incomesInBillions = {9, 5, 8, 15, 5, 3, 8, 6, 11, 12, 0};
+        long expected = 15;
 
         long actual = service.findMax(incomesInBillions);
 
